@@ -1,0 +1,18 @@
+{
+  "name": "tests-acceptance",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anderson PJ",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "cucumber": "^5.0.3",
+    "node": "^11.3.0",
+    "protractor": "^5.4.1",
+    "typescript": "^3.2.2"
+  }
+}
