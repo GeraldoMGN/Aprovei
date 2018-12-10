@@ -44,3 +44,10 @@ Scenario: Redirection to student area list
     When I select the area "Ciências Naturais" to which it is part
     Then I can see the list of all the students that are part of the area "Ciências Naturais"
     Then The student "Sabrina", with CPF "112.973.440-89", in this list
+
+Scenario: Traverse the chaining of Students
+    Given the students "Aluno1" and "Aluno2" are registered
+    And the students are listed in alphabetical order
+    And that i am in the "Aluno1" details page
+    When i go to the next student
+    Then i go to the "Aluno2" details page
