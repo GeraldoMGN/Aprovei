@@ -31,3 +31,7 @@ app.get('/api/area', (req, res) =>{
 app.get('/api/curso', (req, res) =>{
     res.send(alunos.map(aluno => aluno.curso));
 });
+// função para separar alunos por vestibular
+app.get('/api/vestibular', (req, res) =>{
+    res.send(alunos.map(aluno => aluno.vestibular));
+});
