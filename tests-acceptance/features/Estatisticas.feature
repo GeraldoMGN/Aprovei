@@ -20,11 +20,11 @@ And eu vejo que a média geral foi “616,67”
 	And eu vejo um link “Ver lista de aprovados”, que redireciona para a lista de aprovados da turma.
 
 
-Cenário: Visualização de dados por área
-	Given que eu estou na tela “Estatísticas”, e possuo 200 alunos aprovados, destes 26 são da área de Ciências Biológicas, 24 são da área Ciências humanas, 60 são da área de Ciências Exatas e 90 são da área de Linguagens
+Cenário 19: Visualização de dados por área
+	Given que eu estou na tela “Estatísticas”, e possuo 200 alunos aprovados, destes 26 são da área de “Ciências Biológicas”, “24” são da área “Ciências humanas”, “60” são da área de “Ciências Exatas” e “90” são da área de “Linguagens”
 	When eu seleciono a opção “Área” 
-Then eu sou redirecionado para um gráfico me informando que ao total dos alunos aprovados 13% são da área de Ciências Biológicas, 12% são da área Ciências humanas, 30% são da área de Ciências Exatas e 45% são da área de Linguagens.
-	
+	Then eu sou redirecionado para um gráfico me informando que ao total dos alunos aprovados “13%” são da área de “Ciências Biológicas”, “12%” são da área “Ciências humanas”, “30%” são da área de “Ciências Exatas” e “45%” são da área de “Linguagens”.
+
 Cenário: Visualização de dados por vestibular
 Given que eu estou na tela “Estatísticas”, e dos 3 alunos que fizeram o vestibular da UPE, apenas o aluno “Jorge Amado” foi aprovado.
 And as notas dos alunos “Jão Gabriel”, “Ozzy Osborne” e “Jorge Amado” para este vestibular são, “600”, “350” e “900”, respectivamente.
